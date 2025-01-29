@@ -55,4 +55,15 @@
                         >;
                 };
         };
+
+        combos {
+                compatible = "zmk, combo";
+
+                  combo_studio = {
+                    timeout-ms = <50>;
+                    bindings = <&studio_unlock>;
+                    key-positions = <13 14 15>;
+                    layer = <1>;
+                  };
+        };
 };
